@@ -47,7 +47,7 @@ PR['registerLangHandler'](
          [PR['PR_STRING'],      /^\"(?:[^\"\\]|\\[\s\S])*(?:\"|$)/, null, '"']
         ],
         [
-         [PR['PR_KEYWORD'],     /^(?:after|append|apply|array|array set|break|case|catch|continue|error|eval|exec|exit|expr|for|foreach|if|incr|info|proc|return|set|switch|trace|uplevel|upvar|while)\b/, null],
+         [PR['PR_KEYWORD'],     /^(?:after|append|apply|array|"array set"|break|case|catch|continue|error|eval|exec|exit|expr|for|foreach|if|incr|info|proc|return|set|switch|trace|uplevel|upvar|while)\b/, null],
          [PR['PR_LITERAL'],
           /^[+\-]?(?:[0#]x[0-9a-f]+|\d+\/\d+|(?:\.\d+|\d+(?:\.\d*)?)(?:[ed][+\-]?\d+)?)/i],
          // A single quote possibly followed by a word that optionally ends with
